@@ -21,7 +21,7 @@ def make_pta(psrs, crn_components, crn_spectrum, noisedict, custom_models, anis_
     gwb_var_orf = None
     fvary_crn = False
     # orf = 'legendre_orf'
-    orf = 'von_mises_fisher'
+    orf = None
     anis_knots = 4
     vary_f0 = False
     if vary_f0:
